@@ -10,11 +10,11 @@ TranCost = Vol1 * Share1
 TotalC = TranCost
 TotalV = Vol1
 
-console.log(`Volume: ${Vol1}`)
-console.log(`Price/Share: ${Share1}`)
-console.log(`Transaction Cost: ${TranCost.toFixed(0)}`)
-console.log(`Total Cost: ${TotalC.toFixed(0)}`)
-console.log(`Total Volume: ${TotalV.toFixed(0)}`)
+document.getElementById("vol1").innerHTML = `${Vol1}`
+document.getElementById("share1").innerHTML = `${Share1}`
+document.getElementById("tran1").innerHTML = `${TranCost.toFixed(0)}`
+document.getElementById("total1").innerHTML = `${TotalC.toFixed(0)}`
+document.getElementById("tvol1").innerHTML = `${TotalV.toFixed(0)}`
 console.log("")
 
 Vol2 = Number(prompt("Volume:"))
@@ -26,13 +26,13 @@ TotalV = Vol1 + Vol2
 MAvg = ((Vol1 * Share1)+(Vol2 * Share2))/(Vol1 + Vol2)
 PL = 100-(100*(MAvg/Share2))
 
-console.log(`Volume: ${Vol2}`)
-console.log(`Price/Share: ${Share2}`)
-console.log(`Transaction Cost: ${TranCost2.toFixed(0)}`)
-console.log(`Total Cost: ${TotalC.toFixed(0)}`)
-console.log(`Total Volume: ${TotalV.toFixed(0)}`)
-console.log(`Moving Average: ${MAvg.toFixed(4)}`)
-console.log(`Profit/Loss: ${PL.toFixed(7)}%`)
+document.getElementById("vol2").innerHTML = `${Vol2}`
+document.getElementById("share2").innerHTML = `${Share2}`
+document.getElementById("tran2").innerHTML = `${TranCost2.toFixed(0)}`
+document.getElementById("total2").innerHTML = `${TotalC.toFixed(0)}`
+document.getElementById("tvol2").innerHTML = `${TotalV.toFixed(0)}`
+document.getElementById("mave2").innerHTML = `${MAvg.toFixed(4)}`
+document.getElementById("profit2").innerHTML = `${PL.toFixed(7)}%`
 console.log("")
 
 Vol3 = Number(prompt("Volume:"))
