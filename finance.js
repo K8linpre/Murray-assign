@@ -1,8 +1,3 @@
-console.log("")
-console.log("Financial Information - Stocks")
-console.log("------------------------------")
-console.log("")
-
 Vol1 = Number(prompt("Volume:"))
 Share1 = Number(prompt("Price/Share:"))/100
 
@@ -15,7 +10,7 @@ document.getElementById("share1").innerHTML = `${Share1}`
 document.getElementById("tran1").innerHTML = `${TranCost.toFixed(0)}`
 document.getElementById("total1").innerHTML = `${TotalC.toFixed(0)}`
 document.getElementById("tvol1").innerHTML = `${TotalV.toFixed(0)}`
-console.log("")
+
 
 Vol2 = Number(prompt("Volume:"))
 Share2 = Number(prompt("Price/Share:"))/100
@@ -33,7 +28,7 @@ document.getElementById("total2").innerHTML = `${TotalC.toFixed(0)}`
 document.getElementById("tvol2").innerHTML = `${TotalV.toFixed(0)}`
 document.getElementById("mave2").innerHTML = `${MAvg.toFixed(4)}`
 document.getElementById("profit2").innerHTML = `${PL.toFixed(7)}%`
-console.log("")
+
 
 Vol3 = Number(prompt("Volume:"))
 Share3 = Number(prompt("Price/Share:"))/100
@@ -44,14 +39,14 @@ TotalV = Vol1 + Vol2 + Vol3
 MAvg = ((Vol1 * Share1)+(Vol2 * Share2)+(Vol3 * Share3))/(Vol1 + Vol2 + Vol3)
 PL = 100-(100*(MAvg/Share3))
 
-console.log(`Volume: ${Vol3}`)
-console.log(`Price/Share: ${Share3}`)
-console.log(`Transaction Cost: ${TranCost3.toFixed(0)}`)
-console.log(`Total Cost: ${TotalC.toFixed(0)}`)
-console.log(`Total Volume: ${TotalV.toFixed(0)}`)
-console.log(`Moving Average: ${MAvg.toFixed(4)}`)
-console.log(`Profit/Loss: ${PL.toFixed(7)}%`)
-console.log("")
+document.getElementById("vol3").innerHTML = `${Vol3}`
+document.getElementById("share3").innerHTML = `${Share3}`
+document.getElementById("tran3").innerHTML = `${TranCost3.toFixed(0)}`
+document.getElementById("total3").innerHTML = `${TotalC.toFixed(0)}`
+document.getElementById("tvol3").innerHTML = `${TotalV.toFixed(0)}`
+document.getElementById("mave3").innerHTML = `${MAvg.toFixed(4)}`
+document.getElementById("profit3").innerHTML = `${PL.toFixed(7)}%`
+
 
 Vol4 = Number(prompt("Volume:"))
 Share4 = Number(prompt("Price/Share:"))/100
@@ -62,14 +57,14 @@ TotalV = Vol1 + Vol2 + Vol3 + Vol4
 MAvg = ((Vol1 * Share1)+(Vol2 * Share2)+(Vol3 * Share3)+(Vol4 * Share4))/(Vol1 + Vol2 + Vol3 + Vol4)
 PL = 100-(100*(MAvg/Share4))
 
-console.log(`Volume: ${Vol4}`)
-console.log(`Price/Share: ${Share4}`)
-console.log(`Transaction Cost: ${TranCost4.toFixed(0)}`)
-console.log(`Total Cost: ${TotalC.toFixed(0)}`)
-console.log(`Total Volume: ${TotalV.toFixed(0)}`)
-console.log(`Moving Average: ${MAvg.toFixed(4)}`)
-console.log(`Profit/Loss: ${PL.toFixed(7)}%`)
-console.log("")
+document.getElementById("vol4").innerHTML = `${Vol4}`
+document.getElementById("share4").innerHTML = `${Share4}`
+document.getElementById("tran4").innerHTML = `${TranCost4.toFixed(0)}`
+document.getElementById("total4").innerHTML = `${TotalC.toFixed(0)}`
+document.getElementById("tvol4").innerHTML = `${TotalV.toFixed(0)}`
+document.getElementById("mave4").innerHTML = `${MAvg.toFixed(4)}`
+document.getElementById("profit4").innerHTML = `${PL.toFixed(7)}%`
+
 
 Vol5 = Number(prompt("Volume:"))
 Share5 = Number(prompt("Price/Share:"))/100
@@ -80,14 +75,14 @@ TotalV = Vol1 + Vol2 + Vol3 + Vol4 + Vol5
 MAvg = ((Vol1 * Share1)+(Vol2 * Share2)+(Vol3 * Share3)+(Vol4 * Share4)+(Vol5 * Share5))/(Vol1 + Vol2 + Vol3 + Vol4 + Vol5)
 PL = 100-(100*(MAvg/Share5))
 
-console.log(`Volume: ${Vol5}`)
-console.log(`Price/Share: ${Share5}`)
-console.log(`Transaction Cost: ${TranCost5.toFixed(0)}`)
-console.log(`Total Cost: ${TotalC.toFixed(0)}`)
-console.log(`Total Volume: ${TotalV.toFixed(0)}`)
-console.log(`Moving Average: ${MAvg.toFixed(4)}`)
-console.log(`Profit/Loss: ${PL.toFixed(7)}%`)
-console.log("")
+document.getElementById("vol5").innerHTML = `${Vol5}`
+document.getElementById("share5").innerHTML = `${Share5}`
+document.getElementById("tran5").innerHTML = `${TranCost5.toFixed(0)}`
+document.getElementById("total5").innerHTML = `${TotalC.toFixed(0)}`
+document.getElementById("tvol5").innerHTML = `${TotalV.toFixed(0)}`
+document.getElementById("mave5").innerHTML = `${MAvg.toFixed(4)}`
+document.getElementById("profit5").innerHTML = `${PL.toFixed(7)}%`
+
 
 Vol6 = Number(prompt("Volume:"))
 Share6 = Number(prompt("Price/Share:"))/100
@@ -98,11 +93,10 @@ TotalV = Vol1 + Vol2 + Vol3 + Vol4 + Vol5 + Vol6
 MAvg = ((Vol1 * Share1)+(Vol2 * Share2)+(Vol3 * Share3)+(Vol4 * Share4)+(Vol5 * Share5)+(Vol6 * Share6))/(Vol1 + Vol2 + Vol3 + Vol4 + Vol5 + Vol6)
 PL = 100-(100*(MAvg/Share6))
 
-console.log(`Volume: ${Vol6}`)
-console.log(`Price/Share: ${Share6}`)
-console.log(`Transaction Cost: ${TranCost6.toFixed(0)}`)
-console.log(`Total Cost: ${TotalC.toFixed(0)}`)
-console.log(`Total Volume: ${TotalV.toFixed(0)}`)
-console.log(`Moving Average: ${MAvg.toFixed(4)}`)
-console.log(`Profit/Loss: ${PL.toFixed(7)}%`)
-console.log("")
+document.getElementById("vol6").innerHTML = `${Vol6}`
+document.getElementById("share6").innerHTML = `${Share6}`
+document.getElementById("tran6").innerHTML = `${TranCost6.toFixed(0)}`
+document.getElementById("total6").innerHTML = `${TotalC.toFixed(0)}`
+document.getElementById("tvol6").innerHTML = `${TotalV.toFixed(0)}`
+document.getElementById("mave6").innerHTML = `${MAvg.toFixed(4)}`
+document.getElementById("profit6").innerHTML = `${PL.toFixed(7)}%`
