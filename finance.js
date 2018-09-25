@@ -27,7 +27,7 @@ document.getElementById("tran2").innerHTML = `${TranCost2.toFixed(0)}`
 document.getElementById("total2").innerHTML = `${TotalC.toFixed(0)}`
 document.getElementById("tvol2").innerHTML = `${TotalV.toFixed(0)}`
 document.getElementById("mave2").innerHTML = `${MAvg.toFixed(4)}`
-document.getElementById("profit2").innerHTML = `${PL.toFixed(7)}%`
+document.getElementById("profit2").innerHTML = `${PL.toFixed(7)}`
 
 
 Vol3 = Number(prompt("Volume:"))
@@ -45,7 +45,7 @@ document.getElementById("tran3").innerHTML = `${TranCost3.toFixed(0)}`
 document.getElementById("total3").innerHTML = `${TotalC.toFixed(0)}`
 document.getElementById("tvol3").innerHTML = `${TotalV.toFixed(0)}`
 document.getElementById("mave3").innerHTML = `${MAvg.toFixed(4)}`
-document.getElementById("profit3").innerHTML = `${PL.toFixed(7)}%`
+document.getElementById("profit3").innerHTML = `${PL.toFixed(7)}`
 
 
 Vol4 = Number(prompt("Volume:"))
@@ -63,7 +63,7 @@ document.getElementById("tran4").innerHTML = `${TranCost4.toFixed(0)}`
 document.getElementById("total4").innerHTML = `${TotalC.toFixed(0)}`
 document.getElementById("tvol4").innerHTML = `${TotalV.toFixed(0)}`
 document.getElementById("mave4").innerHTML = `${MAvg.toFixed(4)}`
-document.getElementById("profit4").innerHTML = `${PL.toFixed(7)}%`
+document.getElementById("profit4").innerHTML = `${PL.toFixed(7)}`
 
 
 Vol5 = Number(prompt("Volume:"))
@@ -81,7 +81,7 @@ document.getElementById("tran5").innerHTML = `${TranCost5.toFixed(0)}`
 document.getElementById("total5").innerHTML = `${TotalC.toFixed(0)}`
 document.getElementById("tvol5").innerHTML = `${TotalV.toFixed(0)}`
 document.getElementById("mave5").innerHTML = `${MAvg.toFixed(4)}`
-document.getElementById("profit5").innerHTML = `${PL.toFixed(7)}%`
+document.getElementById("profit5").innerHTML = `${PL.toFixed(7)}`
 
 
 Vol6 = Number(prompt("Volume:"))
@@ -99,4 +99,4 @@ document.getElementById("tran6").innerHTML = `${TranCost6.toFixed(0)}`
 document.getElementById("total6").innerHTML = `${TotalC.toFixed(0)}`
 document.getElementById("tvol6").innerHTML = `${TotalV.toFixed(0)}`
 document.getElementById("mave6").innerHTML = `${MAvg.toFixed(4)}`
-document.getElementById("profit6").innerHTML = `${PL.toFixed(7)}%`
+document.getElementById("profit6").innerHTML = `${PL.toFixed(7)}`
